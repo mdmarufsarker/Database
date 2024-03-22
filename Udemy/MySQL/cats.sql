@@ -1,0 +1,30 @@
+CREATE TABLE cats2(
+    Name VARCHAR(50) NOT NULL,
+    Age INT NOT NULL
+);
+
+INSERT INTO cats2(
+    Name, Age
+) VALUES ("Bilbo", 19);
+
+SELECT * FROM cats2;
+
+
+CREATE TABLE cats3(
+    NAME VARCHAR(50) DEFAULT "MIMI",
+    AGE INT NOT NULL DEFAULT 5
+);
+
+INSERT INTO cats3 VALUES ();
+
+SELECT * FROM cats3;
+
+
+CREATE TABLE cats4(
+    NAME VARCHAR(50) NOT NULL DEFAULT "MIMI",
+    AGE INT NOT NULL DEFAULT 5
+);
+
+INSERT INTO cats4() VALUES (), (), ();
+
+SELECT * FROM cats4;
