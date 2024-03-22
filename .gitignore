@@ -1,2 +1,4 @@
-prompt-engineering
-note-taking-app
+.vscode
+node_modules
+a.out
+*.o
