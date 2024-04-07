@@ -4,12 +4,15 @@ CREATE TABLE people (
     age INT
 );
 
-INSERT INTO people(
-    first_name, last_name, age
-) VALUES 
+INSERT INTO
+    people(first_name, last_name, age)
+VALUES
     ("Tina", "Belcher", 13),
     ("Linda", "Belcher", 45),
     ("Phillip", "Frond", 38),
     ("Bob", "Frond", 45);
 
-SELECT * FROM people;
+SELECT
+    *
+FROM
+    people;

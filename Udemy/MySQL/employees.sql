@@ -7,10 +7,17 @@ CREATE TABLE employees(
     current_status VARCHAR(100) NOT NULL DEFAULT "employed"
 );
 
-DESC employees; 
+DESC employees;
 
-INSERT INTO employees (first_name, middle_name, last_name, age, current_status)
-VALUES 
+INSERT INTO
+    employees (
+        first_name,
+        middle_name,
+        last_name,
+        age,
+        current_status
+    )
+VALUES
     ('John', 'A.', 'Doe', 30, 'employed'),
     ('Jane', 'B.', 'Smith', 25, 'employed'),
     ('Michael', NULL, 'Johnson', 35, 'employed'),
@@ -22,4 +29,7 @@ VALUES
     ('Christopher', 'H.', 'Anderson', 38, 'employed'),
     ('Amanda', NULL, 'Martinez', 32, 'employed');
 
-SELECT * FROM employees;
+SELECT
+    *
+FROM
+    employees;

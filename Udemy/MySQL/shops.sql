@@ -1,9 +1,12 @@
-CREATE TABLE shops(
-    Name VARCHAR(100)
-);
+CREATE TABLE shops(Name VARCHAR(100));
 
-INSERT INTO shops(Name) VALUES 
--- ("Mario\'s Pizza")
-('Test\"s');
+INSERT INTO
+    shops(Name)
+VALUES
+    -- ("Mario\'s Pizza")
+    ('Test\"s');
 
-SELECT * FROM shops;
+SELECT
+    *
+FROM
+    shops;
