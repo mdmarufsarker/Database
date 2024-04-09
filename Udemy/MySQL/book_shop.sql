@@ -28,7 +28,10 @@
 -- ('White Noise', 'Don', 'DeLillo', 1985, 49, 320),
 -- ('Cannery Row', 'John', 'Steinbeck', 1945, 95, 181),
 -- ('Oblivion: Stories', 'David', 'Foster Wallace', 2004, 172, 329),
--- ('Consider the Lobster', 'David', 'Foster Wallace', 2005, 92, 343);
+-- ('Consider the Lobster', 'David', 'Foster Wallace', 2005, 92, 343),
+-- ('10% Happier', 'Dan', 'Harris', 2014, 29, 256), 
+-- ('fake_book', 'Freida', 'Harris', 2001, 287, 428),
+-- ('Lincoln In The Bardo', 'George', 'Saunders', 2017, 1000, 367);
 -- SELECT CONCAT(author_fname, ' ', author_lname) AS "Full Name" FROM books;
 SELECT
     CONCAT_WS('-', title, author_fname, author_lname)
